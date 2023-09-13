@@ -17,6 +17,15 @@ function variables() {
     alert(djur[djur.length - 1])
 }
 
+function userInput() {
+    var result = prompt("Mata in ditt användarnamn")
+    document.querySelector(".user").innerHTML = result
+    if(result !== null) {
+return false
+}
+console.log(result);
+}
+
 console.log(djur);
 console.log(djur[3]);
 console.log(djur[djur.length - 1]);
