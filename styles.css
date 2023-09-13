@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container > button {
+
+    margin: 1rem;
+    padding: 9px;
+    border-radius: 3px;
+    background-color: rgb(85, 5, 121);
+    color: white;
+}

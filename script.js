@@ -9,3 +9,15 @@ console.log(typeof decimal);
 console.log(typeof string);
 console.log(typeof sant);
 console.log(typeof falskt);
+
+var djur = ["Lejon", "Zebra", "Tiger", "Puma"]
+
+function variables() {
+    
+    alert(djur[djur.length - 1])
+}
+
+console.log(djur);
+console.log(djur[3]);
+console.log(djur[djur.length - 1]);
+
